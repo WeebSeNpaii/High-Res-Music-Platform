@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html body {
+   height: 100vh;
+   width: 100vw;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.container {
+   display: flex;
+   background-color: black;
+   height: 100vh;
+}
+
+.sidebar {
+   background-color: rgb(17, 15, 20);
+   color: white;
+   width: 16vw;
+
+}
+
+.sidebar h2 {
+   display: flex;
+   justify-content: center;
+   margin-top: 35px;
+   margin-bottom: 32px;
+}
+
+.sidebar h2:hover {
+   color: rgb(88, 34, 177);
+   cursor: grab;
+}
+
+.box {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 85%;
+   align-items: center;
+
+}
+
+.menu {
+   display: block;
+   height: 28vh;
+}
+
+.menu div {
+   display: block;
+   padding: 20px;
+}
+
+.menu div li {
+   display: block;
+   padding: 10px;
+   font-weight: bold;
+}
+
+.menu div li a {
+   list-style-type: none;
+   text-decoration: none;
+   color: white;
+
+}
+
+.menu div li a:hover {
+   color: rgb(88, 34, 177);
+   cursor: grab;
+}
+
+.menu h5 {
+   font-size: 16px;
+   color: rgb(87, 85, 82);
+   margin-left: 8px;
+}
+
+.menu div li i {
+   margin-right: 15px;
+}
+
+.screen {
+   background-color: rgb(14, 13, 10);
+   width: 100%;
+   display: block;
+}
+
+.navbar {
+   height: 95px;
+   background-color: black;
+   display: flex;
+}
+
+.func {
+   display: flex;
+   align-items: center;
+   width: 15vw;
+   margin: 0 60px;
+
+}
+
+.func ul {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+
+}
+
+.func ul li {
+   list-style-type: none;
+}
+
+.func ul li a {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+
+.func ul li a:hover {
+   cursor: pointer;
+   color: rgb(84, 84, 184);
+}
+
+.search {
+
+   width: 40vw;
+   height: 40px;
+   margin-top: 25px;
+
+}
+
+.search input {
+   height: 100%;
+   width: 100%;
+   border-radius: 7px;
+   padding-left: 10px;
+   background-color: rgb(39, 39, 38);
+   border: 10px;
+   border-color: white;
+   color: white;
+}
+
+.setting {
+   justify-content: center;
+   flex-direction: column;
+   display: flex;
+   width: 26%;
+   align-items: end;
+}
+
+.setting div i {
+   font-size: 20px;
+   margin-left: 20px;
+   padding-left: 10px;
+   color: white;
+}
+
+.setting div i:hover {
+   color: rgb(79, 79, 177);
+   cursor: pointer;
+}
+
+.show {
+   display: flex;
+   background-color: rgb(0, 0, 0);
+   height: 90%;
+}
+
+.context {
+   display: block;
+   background-color: gray;
+   width: 55vw;
+}
+
+.texts {
+   height: 43%;
+   background-color: rgb(221, 10, 10);
+   display: flex;
+}
+
+.songs {
+   height: 57%;
+   background-color: rgb(60, 110, 98);
+   display: flex;
+}
+
+.headings {
+   width: 70%;
+   background-color: rgb(0, 0, 0);
+   display: block;
+
+}
+
+.cover {
+   background-color: rgb(0, 0, 0);
+   width: 40%;
+   display: flex;
+}
+
+.btn {
+   display: flex;
+}
+
+.headings h4 {
+   margin: 20px 28px;
+   font-size: 15px;
+   color: white;
+}
+
+.headings div {
+
+   height: 80%;
+   display: block;
+   margin: 20px 40px;
+
+}
+
+.headings div h2 {
+   font-size: 80px;
+   margin: auto;
+   color: white;
+
+}
+
+.headings div li {
+   margin: 30px 40px;
+   font-size: 20px;
+   margin-right: 10px;
+   list-style-type: none;
+   color: white;
+}
+
+.headings div li a {
+   padding-left: 20px;
+   text-decoration: none;
+   color: gray;
+}
+
+.btn button {
+   margin: 20px 0;
+   font-size: 16px;
+   background-color: blue;
+   color: white;
+   border-radius: 18px;
+   padding: 20px;
+   border: none;
+}
+
+.btn button:hover {
+   cursor: pointer;
+   background-color: rgb(116, 116, 161);
+}
+
+.btn i {
+   border: 2px white;
+   border-radius: 50%;
+   padding-left: 30px;
+   font-size: 30px;
+   color: white;
+   font: bold;
+}
+
+.cover img {
+   width: 100%;
+   margin: auto;
+   border-radius: 10px;
+   height: 30vh;
+
+}
+
+.genres {
+   background-color: black;
+   width: 45%;
+}
+
+.contain {
+   background-color: black;
+   display: block;
+   margin: 40px;
+   border-radius: 23px;
+   margin-top: 20px;
+   height: 84%;
+   overflow-y: scroll;
+}
+
+.one {
+   align-items: center;
+   justify-content: space-around;
+   background-color: rgb(17, 15, 20);
+   height: 53px;
+   color: white;
+   display: flex;
+   border-radius: 20px 20px 0px 0px;
+}
+
+.one h5 {
+   font-size: 20px;
+   margin-right: 70px;
+}
+
+.one a {
+   color: rgb(88, 84, 84);
+}
+
+.rock {
+   height: 120px;
+   display: flex;
+   background-color: rgb(17, 15, 20);
+}
+
+.rock:hover {
+   background-color: rgb(27, 24, 32);
+   border-radius: 5px;
+}
+
+.rock div {
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 15px 30px;
+   border-radius: 10px;
+}
+
+.rock div h5 {
+
+   font-size: 17px;
+   color: white;
+}
+
+.rock:last-child {
+   border-radius: 0px 0px 20px 20px;
+}
+
+.blue {
+   background-color: rgb(26, 122, 212);
+}
+
+.green {
+   background-color: rgb(0, 128, 107);
+}
+
+.pink {
+   background-color: pink;
+}
+
+.classicblue {
+   background-color: rgb(41, 75, 102);
+}
+
+.yellow {
+   background-color: rgb(159, 185, 86);
+}
+
+.orange {
+   background-color: rgb(138, 70, 6);
+}
+
+.topsongs {
+   width: 55%;
+   background-color: rgb(0, 0, 0);
+}
+
+.tops {
+   background-color: rgb(17, 15, 20);
+   height: 84%;
+   margin: 20px 0;
+   border-radius: 23px;
+   display: block;
+}
+
+.box1 {
+   background-color: rgb(17, 15, 20);
+   margin: 10px 15px;
+   height: 95%;
+   border-radius: 23px;
+   display: block;
+   overflow-y: scroll;
+
+}
+
+::-webkit-scrollbar {
+   width: 5px;
+   color: white;
+}
+
+.head {
+   align-items: center;
+
+   background-color: rgb(17, 15, 20);
+   justify-content: space-between;
+   height: 53px;
+   color: white;
+   display: flex;
+   border-radius: 20px 20px 0px 0px;
+
+}
+
+.head a {
+   color: rgb(88, 84, 84);
+}
+
+.head h5 {
+   font-size: 20px;
+   margin-left: 20px;
+}
+
+.song1 {
+   height: 23%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: rgb(17, 15, 20);
+   color: white;
+}
+
+.div1 {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 25%;
+}
+
+.div2 {
+   display: flex;
+   justify-content: space-around;
+   width: 30%;
+   align-items: center;
+}
+
+.songname1 {
+   padding-right: 94px;
+   font-size: 14px;
+}
+
+.div1 img {
+   width: 51%;
+   height: 100%;
+   border-radius: 25px;
+}
+
+.div1 h5 {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.div1 h6 {
+   margin-top: 5px;
+   font-size: 13px;
+   color: rgb(255, 255, 255);
+
+}
+
+.div2 {
+   font-size: 20px;
+}
+
+.song1:last-child {
+   border-radius: 0 0 23px 23px;
+}
+
+.song1:hover {
+   background-color: rgb(27, 24, 32);
+   border-radius: 5px;
+
+}
+
+.border2 {
+   width: 45%;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.player {
+   width: 70%;
+   background-color: rgb(17, 15, 20);
+   height: 91%;
+   display: block;
+   border-radius: 15px;
+   margin-bottom: 36px;
+}
+
+.details {
+   width: 100%;
+   height: 75%;
+   background-color: rgb(17, 15, 20);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.perform {
+   width: 100%;
+   height: 25%;
+   background-color: rgb(72, 72, 163);
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 15px;
+}
+
+.playpause {
+   height: 80px;
+   width: 70%;
+
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.playpause .fa-solid {
+   font-size: 30px;
+}
+
+.fa-solid:hover {
+   color: rgb(172, 172, 172);
+}
+
+#playbtn {
+   font-weight: 100;
+   font-size: 40px;
+   border-radius: 10px;
+}
+
+.songdisplay1 {
+   width: 90%;
+   height: 90%;
+   display: block;
+   background-color: rgb(17, 15, 20);
+}
+
+.head2 {
+   height: 35px;
+   display: flex;
+   justify-content: space-between;
+   color: white;
+   font-size: 20px;
+}
+
+.page img {
+   border-radius: 20px;
+   width: 73%;
+   height: 67%;
+
+}
+
+.page {
+   align-items: center;
+   display: flex;
+   width: 100%;
+   height: 90%;
+   flex-direction: column;
+   justify-content: center;
+   color: white;
+
+}
+
+.songname {
+   margin-top: 18px;
+   flex-direction: column;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.songname h3 {
+   font-size: 24px;
+
+}
+
+.songname h4 {
+   margin: 5px 0px;
+   font-size: 15px;
+   color: rgb(167, 165, 165);
+}
+
+.box4 {
+   display: flex;
+   height: 40px;
+   width: 100%;
+   justify-content: center;
+}
+
+.seekbarinfo {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: end;
+}
+
+.seekbarinfo input {
+
+   width: 70%;
+
+}
+
+.fa-circle-pause {
+   font-size: 50px;
+   border-radius: 10px;
+}
+
+.playicons {
+   font-size: 22px;
+}
+
+.sikku .webkit::-webkit-slider-runnable-track {
+   vertical-align: text-bottom;
+}
+
+.volumerng {
+   margin: 11px;
+   width: 82%;
+   opacity: 0;
+}
+
+.fa-volume-high {
+   color: white;
+   font-size: 18px;
+}

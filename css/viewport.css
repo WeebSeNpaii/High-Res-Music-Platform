@@ -1,0 +1,350 @@
+@media screen and (max-width: 1895px) {
+   .border2 {
+      width: 40%;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 96%;
+   }
+
+   .sidebar {
+      background-color: rgb(17, 15, 20);
+      color: white;
+      width: 16vw;
+      height: 104vh;
+   }
+
+   .menu {
+      display: block;
+      height: 32vh;
+   }
+
+   .menu:last-child {
+      margin-bottom: 35px;
+   }
+
+   .screen {
+      background-color: rgb(14, 13, 10);
+      width: 100%;
+      display: block;
+      height: 102.7vh;
+   }
+
+   .headings h4 {
+      margin: 20px 28px;
+      font-size: 15px;
+      color: white;
+   }
+
+   .headings div h2 {
+      font-size: 60px;
+      margin: auto;
+      color: white;
+
+   }
+
+   .headings div li {
+      margin: 24px 40px;
+      font-size: 20px;
+      margin-right: 10px;
+      list-style-type: none;
+      color: white;
+   }
+
+   .headings div {
+      display: block;
+      margin: 1px 45px;
+      position: absolute;
+      height: 10%;
+
+   }
+
+   .btn button {
+      margin: 17px 0;
+      font-size: 13px;
+      background-color: blue;
+      color: white;
+      border-radius: 18px;
+      padding: 20px;
+      border: none;
+   }
+
+
+
+   .btn i {
+      padding-left: 30px;
+      font-size: 24px;
+      color: white;
+   }
+
+   .cover img {
+      width: 100%;
+      margin: auto;
+      border-radius: 10px;
+      height: 26vh;
+   }
+
+   .contain {
+      background-color: black;
+      display: block;
+      margin: 23px;
+      border-radius: 23px;
+      margin-top: 36px;
+      height: 69%;
+      overflow-y: scroll;
+   }
+
+   .one {
+      align-items: center;
+      justify-content: space-around;
+      background-color: rgb(17, 15, 20);
+      height: 35px;
+      color: white;
+      display: flex;
+      border-radius: 20px 20px 0px 0px;
+   }
+
+   .one h5 {
+      font-size: 16px;
+      margin-right: 70px;
+   }
+
+   .rock {
+      height: 103px;
+      display: flex;
+      background-color: rgb(17, 15, 20);
+   }
+
+   .rock div h5 {
+
+      font-size: 13px;
+      color: white;
+   }
+
+   .tops {
+      background-color: rgb(17, 15, 20);
+      height: 69%;
+      margin: 36px 0;
+      border-radius: 23px;
+      display: block;
+   }
+
+   .box1 {
+      background-color: rgb(17, 15, 20);
+      margin: 10px 15px;
+      height: 98%;
+      border-radius: 23px;
+      display: block;
+      overflow-y: scroll;
+
+   }
+
+   .head {
+      align-items: center;
+
+      background-color: rgb(17, 15, 20);
+      justify-content: space-between;
+      height: 49px;
+      color: white;
+      display: flex;
+      border-radius: 20px 20px 0px 0px;
+
+   }
+
+   .head h5 {
+      font-size: 15px;
+      margin-left: 20px;
+   }
+
+   .song1 {
+      height: 28%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgb(17, 15, 20);
+      color: white;
+   }
+
+   .border2 {
+      width: 43%;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 94%;
+   }
+
+   .player {
+      width: 65%;
+      background-color: rgb(17, 15, 20);
+      height: 87%;
+      display: block;
+      border-radius: 15px;
+   }
+
+}
+
+@media screen and (max-width: 1633px) {
+   .rock div {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+   }
+
+   .genres {
+      background-color: black;
+      width: 45%;
+      display: none;
+   }
+
+   .topsongs {
+      width: 519%;
+      background-color: rgb(0, 0, 0);
+      margin-left: 33px;
+   }
+
+   .tops {
+      background-color: rgb(17, 15, 20);
+      height: 81%;
+      margin: 0px 0;
+      border-radius: 23px;
+      display: block;
+   }
+
+   .box1 {
+      background-color: rgb(17, 15, 20);
+      margin: 10px 15px;
+      height: 98%;
+      border-radius: 23px;
+      display: block;
+      overflow-y: scroll;
+
+   }
+
+   .head {
+      align-items: center;
+
+      background-color: rgb(17, 15, 20);
+      justify-content: space-between;
+      height: 49px;
+      color: white;
+      display: flex;
+      border-radius: 20px 20px 0px 0px;
+
+   }
+
+   .song1 {
+      height: 28%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgb(17, 15, 20);
+      color: white;
+   }
+
+   .div1 img {
+      width: 45%;
+      height: 100%;
+      border-radius: 25px;
+   }
+
+   .border2 {
+      width: 43%;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 94%;
+   }
+
+   .player {
+      width: 77%;
+      background-color: rgb(17, 15, 20);
+      height: 87%;
+      display: block;
+      border-radius: 15px;
+   }
+
+   .headings div h2 {
+      font-size: 46px;
+      margin: auto;
+      color: white;
+
+   }
+
+   .headings div li {
+      margin: 24px 40px;
+      font-size: 20px;
+      margin-right: 10px;
+      list-style-type: none;
+      color: white;
+   }
+
+   .songs {
+      height: 57%;
+      background-color: rgb(8, 7, 10);
+      display: flex;
+   }
+
+   .menu h5 {
+      font-size: 16px;
+      color: rgb(87, 85, 82);
+      margin-left: 55px;
+   }
+
+   .songname1 {
+      padding-right: 94px;
+      font-size: 18px;
+   }
+
+
+}
+
+@media screen and (max-width: 1338px) {
+   .sidebar {
+      display: none;
+      background-color: rgb(17, 15, 20);
+      color: white;
+      width: 16vw;
+
+   }
+
+   .func {
+      display: none;
+   }
+
+   .navbar {
+      display: none;
+   }
+
+   .show {
+      display: flex;
+      background-color: rgb(0, 0, 0);
+      height: 90%;
+      justify-content: center;
+   }
+
+   .texts {
+      display: none;
+   }
+
+   .topsongs {
+      display: none;
+   }
+
+   .border2 {
+      width: 9000%;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 108%;
+   }
+}
+
+.songartists {
+   display: none;
+}
